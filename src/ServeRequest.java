@@ -18,15 +18,17 @@ public class ServeRequest implements Runnable {
             String response = "";
             // Input stream
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            System.out.println("here");
             // Output Stream
             DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream());
-            System.out.println("there");
             String request = bufferedReader.readLine();
             System.out.println("Request:"+request);
             String[] requestList = request.split(" ");
             if (requestList[0].equals("add")){
-                response = dictionaryManager.add(requestList[1],requestList[2]);
+                String value = "";
+                for(int i=2;i<requestList.length;i++){
+                    value+=requestList[i]+" ";
+                }
+                response = dictionaryManager.add(requestList[1],value);
             }else if (requestList[0].equals(("query"))){
                 response = dictionaryManager.query(requestList[1]);
             }else{

@@ -10,6 +10,7 @@ public class DictionaryServer {
     public static String dic = "";
     public static int numberOfWorkes = 10;
     public static void main(String[] args) {
+
         port = Integer.parseInt(args[0]);
         dic = args[1];
         DictionaryManager dictionaryManager = new DictionaryManager(dic);
