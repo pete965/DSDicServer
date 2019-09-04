@@ -37,11 +37,9 @@ public class DictionaryManager {
                     System.out.println(keys+":"+dic.get(keys));
                 }
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
-                // TODO: 2019/9/3 exception
+                System.out.println("Dictionary File Not Found!");
             } catch (IOException e){
-                e.printStackTrace();
-                // TODO: 2019/9/3 exception
+                System.out.println("IOException");
             }
         }
     }
