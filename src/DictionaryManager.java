@@ -112,4 +112,14 @@ public class DictionaryManager {
         }
         return output+"\n";
     }
+
+    public String refresh() {
+        String output = "";
+        int i = 1;
+        for (String keys : dic.keySet()) {
+            output+="KEY"+i+":'"+keys+"' "+"VALUE"+i+":'"+dic.get(keys)+"'\n";
+            i++;
+        }
+        return output;
+    }
 }
