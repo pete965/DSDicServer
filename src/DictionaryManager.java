@@ -30,7 +30,11 @@ public class DictionaryManager {
                 slot = br.readLine();
                 while (slot != null) {
                     String[] keyValue = slot.split(" ");
-                    dic.put(keyValue[0],keyValue[1]);
+                    String value = "";
+                    for(int i=1;i<keyValue.length;i++){
+                        value+=keyValue[i]+" ";
+                    }
+                    dic.put(keyValue[0],value);
                     slot = br.readLine(); // 一次读入一行数据
                 }
                 for (String keys : dic.keySet()) {
