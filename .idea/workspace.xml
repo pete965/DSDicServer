@@ -8,9 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b583adf4-c232-4a27-bfae-66143bffcb17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSDicServer/DictionaryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSDicServer/DictionaryManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSDicServer/DictionaryServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSDicServer/DictionaryServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DSDicServer_jar/DSDicServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DSDicServer_jar/DSDicServer.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,34 +18,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServeRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DictionaryServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="399">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DictionaryManager.java">
+        <entry file="file://$PROJECT_DIR$/src/DictionaryServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DictionaryManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="305.0" y="574.0">com</node>
+                <node x="452.0" y="426.0">netscape</node>
+                <node x="175.0" y="500.0">oracle</node>
+                <node x="448.0" y="574.0">org</node>
+                <node x="292.0" y="0.0">DictionaryManager</node>
+                <node x="591.0" y="574.0">sun</node>
+                <node x="0.0" y="500.0">META-INF</node>
+                <node x="0.0" y="648.0">jdk</node>
+                <node x="0.0" y="282.0">ServeRequest</node>
+                <node x="232.0" y="426.0">groovyjarjarasm</node>
+                <node x="156.0" y="574.0">java</node>
+                <node x="337.0" y="500.0">groovy</node>
+                <node x="0.0" y="574.0">javax</node>
+                <node x="312.0" y="282.0">groovyjarjarcommonscli</node>
+                <node x="0.0" y="0.0">DictionaryServer</node>
+                <node x="499.0" y="500.0">javafx</node>
+                <node x="0.0" y="426.0">groovyjarjarantlr</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-81.0" y="146.0" />
+              <SelectedNodes>
+                <node>DictionaryManager</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -67,8 +105,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,6 +116,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,38 +127,19 @@
             <path>
               <item name="DSDicServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSDicServer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSDicServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSDicServer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSDicServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSDicServer" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="DSDicServer_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSDicServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSDicServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/dict/.project" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -181,7 +201,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567561887867</updated>
-      <workItem from="1567561889316" duration="4962000" />
+      <workItem from="1567561889316" duration="5790000" />
+      <workItem from="1567593417493" duration="766000" />
+      <workItem from="1567594334097" duration="805000" />
+      <workItem from="1567608695347" duration="1345000" />
+      <workItem from="1567643101848" duration="4478000" />
     </task>
     <task id="LOCAL-00001" summary="Space issue completed">
       <created>1567586889321</created>
@@ -204,11 +228,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567588114696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creation Completed. Begin to write report.">
+      <created>1567588985383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567588985383</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4962000" />
+    <option name="totallyTimeSpent" value="13184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,35 +254,35 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.325419" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,31 +294,67 @@
     <option name="LAST_COMMIT_MESSAGE" value="Creation Completed. Begin to write report." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$USER_HOME$/OneDrive/Studying/Semester 1/DS/Assessment/DS-Assignment-1-Demo/01-dictionary-master/client-server/.idea/client-server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="305.0" y="574.0">com</node>
+            <node x="452.0" y="426.0">netscape</node>
+            <node x="175.0" y="500.0">oracle</node>
+            <node x="448.0" y="574.0">org</node>
+            <node x="292.0" y="0.0">DictionaryManager</node>
+            <node x="591.0" y="574.0">sun</node>
+            <node x="0.0" y="500.0">META-INF</node>
+            <node x="0.0" y="648.0">jdk</node>
+            <node x="0.0" y="282.0">ServeRequest</node>
+            <node x="232.0" y="426.0">groovyjarjarasm</node>
+            <node x="156.0" y="574.0">java</node>
+            <node x="337.0" y="500.0">groovy</node>
+            <node x="0.0" y="574.0">javax</node>
+            <node x="312.0" y="282.0">groovyjarjarcommonscli</node>
+            <node x="0.0" y="0.0">DictionaryServer</node>
+            <node x="499.0" y="500.0">javafx</node>
+            <node x="0.0" y="426.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-81.0" y="146.0" />
+          <SelectedNodes>
+            <node>DictionaryManager</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ServeRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="399">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DictionaryManager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryServer.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
         </state>
       </provider>
     </entry>
